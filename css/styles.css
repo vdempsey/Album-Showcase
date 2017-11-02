@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box; }
+
+.container {
+  width: 80%;
+  margin: auto;
+  background: linear-gradient(90deg, bisque, #42f4bc); }
+
+form {
+  background-color: #42f4ce;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 100px; }
+  form .btn {
+    height: 40px;
+    width: 60px; }
+  form label {
+    width: 40px; }
+  form input {
+    width: 100px; }
+
+img {
+  width: 100%;
+  max-width: 200px;
+  padding-top: 20px; }
+
+.output {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  margin: 20px; }
+
+.album-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 20px 40px 20px; }
+
+/*# sourceMappingURL=styles.css.map */
